@@ -1,0 +1,9 @@
+torch>=2.2
+torchvision
+numpy
+tqdm
+tensorboard>=1.14
+pandas
+scikit-learn
+seaborn
+xgboost
