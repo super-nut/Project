@@ -113,7 +113,3 @@ class DqaccDataLoader(BaseDataLoader):
         super().__init__(self.dataset, batch_size, shuffle, validation_split, num_workers)
 
 
-if __name__ == '__main__':
-    s = DqaccDataLoader(data_dir="E:/行思堂/研究生论文写作辅导_1/Project/data/",
-                        batch_size=256)
-    print(s)
