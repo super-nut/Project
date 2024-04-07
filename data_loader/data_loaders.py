@@ -112,4 +112,5 @@ class DqaccDataLoader(BaseDataLoader):
         print(self.dataset)
         super().__init__(self.dataset, batch_size, shuffle, validation_split, num_workers)
 
-
+if __name__ == '__main__':
+    pass
